@@ -1,11 +1,11 @@
-a1=int(input())
-ab=a1
+m1=int(input())
+a1b1=m1
 sum=0
-while a1>0:
-  b=a1%10
-  sum=sum+b*b*b
-  a1=a1//10
-if ab==sum:
+while m1>0:
+  b1=m1%10
+  sum=sum+b1*b1*b1
+  m1=m1//10
+if a1b1==sum:
   print("yes")
 else:
   print("no")
